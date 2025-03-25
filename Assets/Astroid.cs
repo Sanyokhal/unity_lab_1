@@ -14,6 +14,6 @@ public class Astroid : MonoBehaviour
         time += speed * Time.deltaTime;
         float x = r * Mathf.Pow(Mathf.Cos(time), 3);
         float z = r * Mathf.Pow(Mathf.Sin(time), 3);
-        transform.position = startPosition  + new Vector3(x, 5, z);
+        transform.position = startPosition  + new Vector3(x, 0, z);
     }
 }
